@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+:root {
+  --primary-color: rgb(45, 219, 59);
+  
+}
+
+body {
+  margin: 0;
+  background: var(--primary-color);
+  font-family: 'Lato';
+}
+
+.calculator-section{
+  background: white;
+  border-radius: 5em;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.head{
+  text-align: center;
+}
+
+ul li{
+  margin-left:30px;
+}
+
+.definition .first-line{
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+
+.definition .next-line{
+  margin-left: 8px;
+  margin-top: 0;
+  
+}
+
+.calculator-screen{
+  margin: 40px auto auto 20px;
+}
+
+.weight-input{
+  margin: 10px auto auto 20px;
+}
+
+.height-input{
+  margin: auto auto auto 20px;
+}
+
+.button{
+  margin: 20px auto auto 20px;
+  height: 30px;
+  font-family: 'Lato';
+}
+
+.input{
+  display: block;
+  margin: 10px auto auto 0;
+  height: 20px;
+}
+
+.result{
+  margin: 10px auto 5px 20px;
+}
+
+.overweight-T{
+  background: rgb(170, 5, 5);
+}
+
+.overweight-S{
+  background: rgb(216, 13, 13);
+}
+
+.overweight-F{
+  background: rgb(212, 41, 41);
+}
+
+.overweight{
+  background: rgb(204, 67, 33);
+}
+
+.normal{
+  background: var(--primary-color);
+}
+
+.under{
+  background: rgb(237, 240, 65);
+}
+
+.very-under{
+  background: rgb(231, 225, 144);
+}

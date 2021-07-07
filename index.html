@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="style/index.css">
+    <script src="app.js" async></script>
+</head>
+<body>
+    <section class="calculator-section">
+
+        <div class="info">
+            <div class="head">
+                <h1>BODY MASS INDEX CALCULATOR</h1>
+            </div>
+            
+            <div class="definition">
+                <p class = "first-line"> Body mass index (BMI) is a measure of body fat based on height</p>
+                    <p class = "next-line">and weight that applies to adult men and women.</p>
+            </div>
+           
+            <div class="steps">
+                <ul>
+                    <li>Enter your weight. Ex -> 70</li>
+                    <li>Enter your height. Ex -> 175</li>
+                    <li>Click calculate</li>
+                </ul>
+            </div>
+           
+
+        </div>
+
+        <div class="calculator-screen">
+            <form id="form" class="get-info">
+                <div class="height-input">
+                    <label for="" class="height-label">
+                        Height
+
+                    </label>
+                    <input id="height" class="input" type="number">
+                </div>
+
+                <div class="weight-input">
+                    <label for="" class="weight-label">
+                        Weight
+
+                    </label>
+                    <input id="weight" class="input" type="number">
+                </div>
+                <input id="button-cta" class="button" type="submit" value="calculate">
+
+            </form>
+        </div>
+
+        <div class="result">
+            <h1 id="result">BMI:</h1>
+
+            <div id="advice" class="advice-section">
+                <p id="advice-text"></p>
+            </div>
+
+        </div>
+
+    </section>
+    
+    
+</body>
+</html>
